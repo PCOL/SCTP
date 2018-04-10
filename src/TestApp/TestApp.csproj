@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2"/>
+    <ProjectReference Include="..\SCTP\SCTP.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StreamStat.cs"/>
+    <Content Include="Program.cs"/>
+    <Content Include="Models\TestModel.cs"/>
+  </ItemGroup>
+</Project>
